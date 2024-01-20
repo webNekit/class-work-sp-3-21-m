@@ -7,9 +7,14 @@
 </head>
 <body>
     <script>
-        let x = 15;
-        let y = 2;
-        document.write(x + y);
+        const age = 15;
+        if ( age >= 18 ) {
+            document.write('Ты уже старый!');
+        } else if ( age >= 16 ) {
+            document.write('Сойдет, ты молодой(ая) пацан(девушка)');
+        } else {
+            document.write('Ты еще малокосос (скорлупа, адидас)');
+        }
     </script>
 </body>
 </html>
